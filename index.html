@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="ООО «М 207 Софт» — разработка программного обеспечения и программно-аппаратных решений для здравоохранения и бизнеса. Аккредитация Минцифры России."
+        />
+        <title>М 207 Софт — разработка ПО и программно-аппаратных решений</title>
+        <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com"
+        />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="wrap header-inner">
+                <a href="#" class="logo"
+                    ><img src="assets/logo.webp" alt="Med-Provision" />М&nbsp;207
+                    <span class="gradient-text">Софт</span></a
+                >
+                <nav class="menu">
+                    <a href="#products">Продукты</a>
+                    <a href="#stack">Технологии</a>
+                    <a href="#about">О компании</a>
+                    <a href="#contacts">Контакты</a>
+                </nav>
+                <button
+                    class="theme-switch"
+                    id="themeSwitch"
+                    aria-label="Переключить тему"
+                ></button>
+            </div>
+        </header>
+
+        <main class="wrap">
+            <!-- Баннер -->
+            <section id="banner">
+                <h1>
+                    Разрабатываем <span class="gradient-text">программное обеспечение</span>
+                    и программно-аппаратные решения
+                </h1>
+                <p>
+                    Решаем сложные отраслевые задачи с помощью IT. Наши продукты
+                    для обязательного медицинского страхования и автоматизации
+                    медицинских учреждений включены в реестр отечественного ПО.
+                </p>
+            </section>
+
+            <!-- Продукты -->
+            <section id="products">
+                <p class="section-label">Наши разработки</p>
+                <h2 class="section-title">Продукты, которым доверяют</h2>
+
+                <!-- 1. Med-Provision: Взаиморасчёты ТФОМС -->
+                <article class="product">
+                    <div class="product-text">
+                        <span class="badge"
+                            ><span class="dot">●</span> В реестре отечественного ПО · №30080</span
+                        >
+                        <h3>«Med-Provision»: Взаиморасчёты ТФОМС, версия&nbsp;2</h3>
+                        <p>
+                            Организация и контроль взаиморасчётов между
+                            территориальными фондами ОМС (ТФОМС), а также между
+                            медицинскими организациями и ТФОМС за помощь, оказанную
+                            гражданам по программе ОМС за пределами территории
+                            страхования.
+                        </p>
+                        <a class="more-link" href="/mtr">Подробнее</a>
+                        <a
+                            class="reestr-link"
+                            href="https://reestr.digital.gov.ru/reestr/4075376/"
+                            target="_blank"
+                            rel="noopener"
+                            >Реестровая запись №30080 от 06.10.2025 →</a
+                        >
+                    </div>
+                    <div class="product-media shot">
+                        <img
+                            src="assets/mp_tfoms.jpg"
+                            alt="Интерфейс «Med-Provision: Взаиморасчёты ТФОМС» — реестр случаев и карточка пациента"
+                        />
+                    </div>
+                </article>
+
+                <!-- 2. Med-Provision: ИС ЛПУ -->
+                <article class="product">
+                    <div class="product-text">
+                        <h3>«Med-Provision» — информационная система ЛПУ</h3>
+                        <p>
+                            Комплексная система автоматизации медицинских
+                            учреждений: ведение учёта, обработка медицинских данных
+                            и поддержка работы персонала в единой среде.
+                        </p>
+                        <a class="more-link" href="/med">Подробнее</a>
+                    </div>
+                    <div class="product-media shot">
+                        <img
+                            src="assets/mp_lpu.jpg"
+                            alt="Интерфейс «Med-Provision» для ЛПУ — расписание приёма врачей в регистратуре"
+                        />
+                    </div>
+                </article>
+
+                <!-- 3. RooferKit -->
+                <article class="product">
+                    <div class="product-text">
+                        <h3>RooferKit</h3>
+                        <p>
+                            Моделирование кровельной системы или фасада в
+                            специализированном эргономичном 3D-редакторе каркасов.
+                            Точный расчёт и наглядная визуализация конструкции.
+                        </p>
+                        <a class="more-link" href="/rooferkit">Подробнее</a>
+                    </div>
+                    <div class="product-media">
+                        <img src="assets/roof2.jpg" alt="Моделирование кровли в RooferKit" />
+                    </div>
+                </article>
+            </section>
+
+            <!-- Технологический стек -->
+            <section id="stack">
+                <p class="section-label">Технологический стек</p>
+                <h2 class="section-title">На чём мы строим решения</h2>
+                <div class="stack-grid">
+                    <div class="stack-item">
+                        <h4>Python &amp; Django</h4>
+                        <p>
+                            Фундамент наших веб-приложений: чистота кода, высокая
+                            скорость разработки и богатая экосистема для надёжных и
+                            безопасных проектов.
+                        </p>
+                    </div>
+                    <div class="stack-item">
+                        <h4>Django REST Framework</h4>
+                        <p>
+                            Наш стандарт для функциональных REST API с встроенной
+                            документацией — для веб- и мобильных приложений.
+                        </p>
+                    </div>
+                    <div class="stack-item">
+                        <h4>JavaScript &amp; TypeScript</h4>
+                        <p>
+                            TypeScript добавляет статическую типизацию: код
+                            становится предсказуемым, удобным в поддержке и менее
+                            подверженным ошибкам.
+                        </p>
+                    </div>
+                    <div class="stack-item">
+                        <h4>React</h4>
+                        <p>
+                            Библиотека №1 для динамических интерфейсов:
+                            переиспользуемые компоненты ускоряют разработку и
+                            обеспечивают единообразие.
+                        </p>
+                    </div>
+                    <div class="stack-item">
+                        <h4>PostgreSQL</h4>
+                        <p>
+                            Объектно-реляционная СУБД с открытым исходным кодом для
+                            создания, хранения и обработки баз данных на языке SQL.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- О компании -->
+            <section id="about">
+                <p class="section-label">О компании</p>
+                <h2 class="section-title">ООО «М 207 Софт»</h2>
+                <div class="about-grid">
+                    <div>
+                        <span class="accredit">✓ Аккредитация Минцифры России</span>
+                        <p>
+                            Разработка компьютерного программного обеспечения,
+                            консультационные и сопутствующие услуги. Работаем с
+                            2006 года.
+                        </p>
+                        <div class="svid-gallery">
+                            <a href="assets/svid/mp_vzr_web.jpg" target="_blank" rel="noopener"><img src="assets/svid/mp_vzr_web.jpg" alt="Свидетельство о регистрации ПО" /></a>
+                            <a href="assets/svid/mp_vzr_2.jpg" target="_blank" rel="noopener"><img src="assets/svid/mp_vzr_2.jpg" alt="Свидетельство о регистрации ПО" /></a>
+                            <a href="assets/svid/mp_polycl.jpg" target="_blank" rel="noopener"><img src="assets/svid/mp_polycl.jpg" alt="Свидетельство — поликлиника" /></a>
+                            <a href="assets/svid/mp_stacionar.jpg" target="_blank" rel="noopener"><img src="assets/svid/mp_stacionar.jpg" alt="Свидетельство — стационар" /></a>
+                            <a href="assets/svid/roofer.jpg" target="_blank" rel="noopener"><img src="assets/svid/roofer.jpg" alt="Свидетельство — RooferKit" /></a>
+                            <a href="assets/svid/vzr_2013_inet.jpg" target="_blank" rel="noopener"><img src="assets/svid/vzr_2013_inet.jpg" alt="Свидетельство о регистрации ПО" /></a>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="requisites">
+                            <li><b>Дата регистрации:</b> 21 декабря 2006</li>
+                            <li><b>Юридический адрес:</b> 308000, Белгородская обл., г. Белгород, ул. Щорса, д. 45в, этаж 2, помещ. 1</li>
+                            <li><b>ОГРН:</b> 1063123156601</li>
+                            <li><b>ИНН:</b> 3123148348</li>
+                            <li><b>КПП:</b> 312301001</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="activity">
+                    <h3>Вид деятельности</h3>
+                    <ul class="requisites">
+                        <li><b>Отрасль:</b> разработка компьютерного программного обеспечения, консультационные услуги в данной области и другие сопутствующие услуги.</li>
+                        <li><b>Основной вид деятельности (ОКВЭД&nbsp;62.02):</b> деятельность консультативная и работы в области компьютерных технологий.</li>
+                    </ul>
+                    <p class="activity-note">
+                        <b>Код по приказу Минцифры России от 11.05.2023 №&nbsp;449</b>
+                        «Об утверждении перечня видов деятельности в области
+                        информационных технологий»:
+                    </p>
+                    <p class="activity-code">
+                        1.01 Проектирование, и (или) обследование, и (или)
+                        разработка, и (или) адаптация, и (или) модификация (в том
+                        числе локализация, кастомизация, доработка), и (или)
+                        обратное проектирование (реверсивный инжиниринг), и (или)
+                        модернизация, и (или) обновление, и (или) установка, и
+                        (или) интеграция, и (или) настройка, и (или)
+                        конфигурирование, и (или) внедрение, и (или) сопровождение,
+                        и (или) тестирование, и (или) испытания, и (или) техническая
+                        поддержка, и (или) эксплуатация, включая администрирование, а
+                        также оказание услуг (в том числе консультационных, услуг по
+                        обучению, экспертных услуг и иных) в указанных видах
+                        деятельности (далее — проектирование и (или) иная
+                        деятельность, а также оказание услуг), в отношении программ
+                        для электронных вычислительных машин (далее — программы для
+                        ЭВМ), и (или) баз данных (в том числе их обновлений и
+                        исправлений), и (или) визуальных пользовательских
+                        интерфейсов.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Контакты -->
+            <section id="contacts">
+                <p class="section-label">Контакты</p>
+                <a class="contact-line mail gradient-text" href="mailto:soft@m207.ru">soft@m207.ru</a>
+                <a class="contact-line phone" href="tel:+79092072207">+7 (909) 207-2-207</a>
+            </section>
+        </main>
+
+        <footer>
+            <div class="wrap">
+                <div class="footer-top">
+                    <span class="logo">М&nbsp;207 Софт</span>
+                    <span>+7 (909) 207-2-207 · soft@m207.ru</span>
+                </div>
+                <p>
+                    Исключительные права на программное обеспечение принадлежат
+                    ООО «М 207 Софт». Клиентам предоставляется неисключительная
+                    лицензия на право использования ПО.
+                </p>
+                <p style="margin-top: 14px;">
+                    <a href="/cookie" style="color: inherit; text-decoration: underline; text-underline-offset: 3px;">Использование файлов cookie</a>
+                </p>
+            </div>
+        </footer>
+
+        <!-- Cookie-уведомление -->
+        <div id="cookie" class="hidden">
+            <p>
+                Мы используем файлы cookie для корректной работы сайта и анализа
+                посещаемости. Продолжая пользоваться сайтом, вы соглашаетесь с
+                их использованием.
+                <a href="/cookie" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Подробнее</a>
+            </p>
+            <button id="cookieAccept">Принять</button>
+        </div>
+
+        <script>
+            // Переключение темы с сохранением выбора
+            (function () {
+                var root = document.documentElement;
+                var saved = localStorage.getItem("m207-theme");
+                if (saved) root.setAttribute("data-theme", saved);
+                document
+                    .getElementById("themeSwitch")
+                    .addEventListener("click", function () {
+                        var cur =
+                            root.getAttribute("data-theme") === "dark"
+                                ? "light"
+                                : "dark";
+                        root.setAttribute("data-theme", cur);
+                        localStorage.setItem("m207-theme", cur);
+                    });
+            })();
+
+            // Cookie-баннер
+            (function () {
+                var bar = document.getElementById("cookie");
+                if (!localStorage.getItem("m207-cookie-ok")) {
+                    bar.classList.remove("hidden");
+                }
+                document
+                    .getElementById("cookieAccept")
+                    .addEventListener("click", function () {
+                        localStorage.setItem("m207-cookie-ok", "1");
+                        bar.classList.add("hidden");
+                    });
+            })();
+        </script>
+    </body>
+</html>
